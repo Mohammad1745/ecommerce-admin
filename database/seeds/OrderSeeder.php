@@ -18,7 +18,7 @@ class OrderSeeder extends Seeder
             'total_price' => 200,
             'payment_method' => 1,
             'payment_status' => 1,
-            'deliver_status' => 1,
+            'delivery_status' => 1,
         ]);
 
         Order::create([
@@ -27,7 +27,7 @@ class OrderSeeder extends Seeder
             'total_price' => 200,
             'payment_method' => 1,
             'payment_status' => 1,
-            'deliver_status' => 1,
+            'delivery_status' => 1,
         ]);
 
         Order::create([
@@ -36,7 +36,7 @@ class OrderSeeder extends Seeder
             'total_price' => 200,
             'payment_method' => 1,
             'payment_status' => 1,
-            'deliver_status' => 1,
+            'delivery_status' => 1,
         ]);
     }
 }
